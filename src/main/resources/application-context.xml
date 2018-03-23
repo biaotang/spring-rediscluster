@@ -76,7 +76,7 @@
 		<property name="hashValueSerializer" ref="jdkSerializer" />
 	</bean>
 
-	<bean id="userDAO" class="com.develop.redis.impl.UserDAOImpl">
+	<bean id="userDAO" class="redis.impl.UserDAOImpl">
 		<property name="redisTemplate" ref="redisTemplate" />
 	</bean>
 	

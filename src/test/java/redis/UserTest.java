@@ -1,12 +1,11 @@
-package com.develop;
+package redis;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.ClassPathResource;
 
-import com.develop.redis.UserDAO;
-import com.develop.redis.model.User;
+import redis.model.User;
 
 /**
  * Unit test for simple App.

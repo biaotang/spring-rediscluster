@@ -1,4 +1,4 @@
-package com.develop.redis.impl;
+package redis.impl;
 
 import java.io.Serializable;
 
@@ -8,8 +8,8 @@ import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 
-import com.develop.redis.UserDAO;
-import com.develop.redis.model.User;
+import redis.UserDAO;
+import redis.model.User;
 
 public class UserDAOImpl implements UserDAO {
 

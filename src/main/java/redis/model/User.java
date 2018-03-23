@@ -1,4 +1,4 @@
-package com.develop.redis.model;
+package redis.model;
 
 public class User {
 

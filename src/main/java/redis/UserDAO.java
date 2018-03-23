@@ -1,6 +1,6 @@
-package com.develop.redis;
+package redis;
 
-import com.develop.redis.model.User;
+import redis.model.User;
 
 public interface UserDAO {
 
